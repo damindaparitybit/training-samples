@@ -1,0 +1,26 @@
+---
+name: Royal
+students: 
+- name: Nilesh
+  age: 26
+- name: Daminda
+  age: 26
+address: 
+  line1: something
+  line2: somethingelse
+
+
+---
+resources: 
+  - Pod
+  - Deployment
+  - Service
+  - Ingress
+  - ConfigMap
+  - Secret
+  - ReplicaSet
+  - StatefulSet
+  - PersitentVolume
+  - PersistentVolumeClaim
+  - HorizontalPodAutoScalar
+  - Namespace

@@ -1,0 +1,26 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    run: nginx
+    env: production
+  name: nginx
+spec: # spec of the deployment
+  replicas: 3
+  selector:
+    matchLabels:
+      app: nginx
+  template: # we are giving the config of the pods created by deployment
+    metadata:
+      labels:
+        app: nginx
+    spec:
+      containers:
+      - image: nginx
+        name: nginx
+        resources: 
+          requests:
+            cpu: 100m
+            memory: 100Mi
+        ports:
+        - containerPort: 80

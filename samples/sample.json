@@ -1,0 +1,18 @@
+{
+    "name": "Royal",
+    "students": [
+        {
+            "name": "Nilesh",
+            "age": 26
+        },
+        {
+            "name": "Daminda",
+            "age": 26
+        }
+    ],
+    "address": {
+        "line1": "something",
+        "line2": "something else"
+    }
+}
+
